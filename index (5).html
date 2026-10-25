@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TimCheck — similarity checking, explained</title>
+  <meta name="description" content="TimCheck is an educational demonstration of how similarity checkers work. It is not affiliated with Turnitin.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="notice" role="note">
+    Educational demonstration. TimCheck is independent and is not connected to Turnitin. Its reports are not Turnitin reports.
+  </div>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#/" aria-label="TimCheck home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="5" width="26" height="22" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><rect x="8" y="11" width="16" height="4" rx="1" fill="#ffd84d"/><rect x="8" y="18" width="10" height="2.4" rx="1" fill="currentColor"/></svg>
+        <span>TimCheck</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav id="nav" class="nav" aria-label="Main"></nav>
+    </div>
+  </header>
+  <main id="main" class="wrap" tabindex="-1"></main>
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>TimCheck is a teaching tool. It compares text against its own small sample collection only. A similarity number from TimCheck is a demonstration, never proof of plagiarism or originality.</p>
+      <p><a href="#/learn">How similarity checking works</a> <a href="#/sources">Sample collection</a> <a href="#/verify">Verify a report</a></p>
+    </div>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
